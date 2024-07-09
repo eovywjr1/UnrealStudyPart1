@@ -2,6 +2,7 @@
 
 | <b>폴더 제목</b> |  <b>실습 내용</b> |
 | :-------------- | :------------------ |
+| UnrealComposition        | 컴포지션을 활용한 Has-A 설계  |
 | UnrealInterface        | 언리얼 인터페이스를 활용한 설계  |
 | ObjectReflection        | 언리얼 오브젝트의 Reflection, CDO을 활용한 검증 및 로그 출력  |
 | UnrealObject        | 언리얼 오브젝트 생성하기 |
