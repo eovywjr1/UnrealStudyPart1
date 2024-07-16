@@ -2,7 +2,7 @@
 
 | <b>폴더 제목</b> |  <b>실습 내용</b> |
 | :-------------- | :------------------ |
-| UnrealContainer        | TArray, TSet 자료구조를 활용  |
+| UnrealContainer        | TArray, TSet, 구조체, TMap 자료구조를 활용  |
 | UnrealDelegate        | 델리게이트를 활용한 느슨한 결합 설계  |
 | UnrealComposition        | 컴포지션을 활용한 Has-A 설계  |
 | UnrealInterface        | 언리얼 인터페이스를 활용한 설계  |
