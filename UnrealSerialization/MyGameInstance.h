@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "Engine/StreamableManager.h"
 #include "MyGameInstance.generated.h"
 
 /**
@@ -40,6 +41,16 @@ public:
 	virtual void Init() override final;
 
 private:
+	void SaveStudentPackage() const;
+	void LoadStudentPackage() const;
+	void LoadStudentObject() const;
+
 	UPROPERTY()
 	TObjectPtr<UStudent> StudentSrc;
+
+	static const FString PackageName;
+	static const FString AssetName;
+	
+	FStreamableManager StreamableManager;
+	TSharedPtr<FStreamableHandle> StreamableHandle;
 };
