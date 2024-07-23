@@ -2,6 +2,7 @@
 
 | <b>폴더 제목</b> |  <b>실습 내용</b> |
 | :-------------- | :------------------ |
+| UnrealSerialization        | 모듈, 플러그인, 패키징을 활용한 빌드 시스템 이해  |
 | UnrealSerialization        | 일반 C++ 데이터, 언리얼 오브젝트 데이터를 직렬화하여 저장 및 로드 </br> 패키지/에셋 저장 및 로드(+비동기 로드 포함)  |
 | UnrealMemory        | 언리얼 오브젝트, 일반 c++ 클래스의 가비지 컬렉터 활용  |
 | UnrealContainer        | TArray, TSet, 구조체, TMap 자료구조를 활용  |
